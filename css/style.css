@@ -1,0 +1,88 @@
+header {
+  width: 100%;
+  background-color: darkgrey;
+  height: 6rem;
+}
+
+header .container {
+  height: 90px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap; 
+  align-items: center; 
+}
+
+header a {
+  box-sizing: border-box;
+  color: white;
+  background-color: darkgray;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 24px 60px 24px 60px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.heroImageContainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap; 
+  align-items: center;
+  margin: 2rem 0px 2rem 0px;
+}
+
+.subBannerContainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  align-items: center;
+  margin: auto;
+  width: 960px;
+}
+
+.featureContainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 960px;
+}
+
+.featureContentContainer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 448px;
+  height: 400px;
+}
+
+.featureContentContainer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-style: inherit;
+}
+
+.featureContentContainer p{
+  height: 300px;
+}
+
+.featureContentContainer button {
+  margin-top: auto;
+  width: 8rem;
+  height: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: darkgray;
+  height: 6rem;
+}
